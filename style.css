@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.info {
+    margin-top: 100px;
+
+    min-width: 200px;
+    min-height: 400px;
+}
+
+
+
+.info,
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 10%;
+
+
+}
+
+.form input {
+    width: 50%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    height: 30px;
+    text-align: center;
+
+
+}
+
+.form input:focus {
+    background-color: rgba(166, 204, 204, 0.616);
+    border-bottom: none;
+    border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.botones input {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#calcular {
+    border-radius: 20px;
+    background-color: rgba(166, 204, 204, 0.616);
+    color: rgb(0, 0, 0);
+    transition: all ease-in-out 0.3s;
+    font-weight: 600;
+    min-width:120px;
+}
+
+#limpiar {
+    border-radius: 20px;
+    background-color: rgba(166, 204, 204, 0.616);
+    color: rgb(0, 0, 0);
+    transition: all ease-in-out 0.3s;
+    font-weight: 600;
+    min-width:120px;
+}
+
+#limpiar:hover,
+#calcular:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+.form {
+    width: 50%;
+    height: 100%;
+}
+
+
+.mostrar-info {
+    margin-top: 40px;
+    padding: 40px;
+    width: 50%;
+    background-color: rgba(166, 204, 204, 0.616);
+    border-radius: 20px;
+    text-align: center;
+    height: 200px;
+    
+}
+
+.mostrar-info:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: all ease-in-out 0.3s;
+
+}
